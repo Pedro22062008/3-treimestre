@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color:bisque;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     }
 
@@ -17,3 +17,32 @@ body {
             font-size: 0.6rem;
             margin-top: 0.5rem;
         }
+        
+                   #container {
+                display:flex ;
+                      }
+
+      .cartao {
+            margin: 1rem 1rem;
+            background-color: aqua;
+            height: 20rem;
+            flex: 1;
+            flex-basis: calc(33% - 6rem);
+            }
+
+
+            .cartao__conteudo {
+                text-align: center;
+                background-color: rgb(32, 155, 102);
+                height: 100%;
+                }
+
+                .cartao__conteudo h3 {
+                    background-color: tomato;
+                    text-align: left;
+                    padding: 0.5rem;
+                    position: absolute;
+                     margin: 0.6rem;
+                     border-radius: 0.6rem;
+                     font-size: 1vw;
+                }
